@@ -1,35 +1,20 @@
-# AI-Live-Chat
-AI Live Chat is a lightweight, fast, and fully responsive real-time chat application powered by artificial intelligence. It allows users to interact with an AI assistant instantly, with smooth message streaming, clean UI, and easy integration into any website or application.
-Key Features
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-⚡ Real-time Messaging – Live chat with instant responses.
+# Run and deploy your AI Studio app
 
-🤖 AI-Powered Engine – Connects with OpenAI or other LLM APIs.
+This contains everything you need to run your app locally.
 
-🎨 Modern UI – Clean, responsive chat interface.
+View your app in AI Studio: https://ai.studio/apps/drive/1SI5bmTtV54EoaemRdvUK2wh6wr_p_-1l
 
-🔌 Easy Integration – Plug-and-play code for websites or web apps.
+## Run Locally
 
-🔒 Secure – API key protection & safe request handling.
+**Prerequisites:**  Node.js
 
-🛠️ Customizable – Modify prompts, themes, and behavior easily.
 
-Use Cases
-
-Customer support
-
-Personal assistant
-
-Live chatbot for websites
-
-AI chat widget
-
-Educational and demo projects
-
-Tech Stack (optional update as per your project)
-
-HTML, CSS, JavaScript
-
-Node.js / Python backend
-
-OpenAI API
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
